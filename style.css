@@ -1,0 +1,118 @@
+:root{
+    --font-poppins: 'Poppins', sans-serif;
+    --font-family: 'Racing Sans One', cursive;
+    --font-motserrat: 'Montserrat', sans-serif;
+}
+
+*{
+    margin: 0;
+    padding: 0;
+    
+}
+
+header nav{
+    display: grid;
+    grid-template-columns: 30% 70%;
+    margin-left: 6em;
+}
+
+header nav .navImg{
+    width: 20vw;
+    height: 5vw;
+    background: url("./asset/Group\ 5.png");
+}
+
+header nav ul{
+    display: grid;
+    grid-template-columns: repeat(4,22%);
+    list-style-type: none;
+}
+
+.showcase{
+    display: grid;
+    grid-template-columns: repeat(2,50%);
+    margin-top: 1em;
+    margin-left: 5em;
+}
+
+.showcaseImg{
+    width: 30vw;
+    height: 25vw;
+    background: url("/asset/Group\ 3.png");
+    background-position: center;
+    background-size: contain;
+}
+
+.img2{
+    width: 20vw;
+    height: 2vw;
+    background: url("./asset/Group\ 4.png");
+    background-position: center;
+    background-size: contain;
+}
+
+.showcaseText{
+    margin-top: 110px;
+    font-family: var(--font-family);
+}
+
+.showcaseText h1{
+    margin-left: 40px;
+    font-size: 80px;
+}
+
+.showcaseText p{
+    margin-left: 40px;
+    font-size: 20px;
+    color: #636363;
+}
+
+.qualityBox{
+    display: grid;
+    grid-template-columns: repeat(3,30%);
+    margin-top: 10em;
+    margin-left: 10em;
+    font-family: var(--font-motserrat);
+}
+
+.qualityText{
+    margin: 1em;
+}
+
+.quality{
+    margin-left: 10em;
+    margin-top: 30px;
+    font-family: var(--font-motserrat);
+    font-size: 25px;
+}
+
+.qualityText h2{
+    margin-left: 20px;
+}
+
+.qualityText:nth-child(1) .qualityImg{
+    width: 5vw;
+    height: 5vw;
+    background: url("./asset/Group\ 11.png");
+    background-position: center;
+    background-size: contain;
+    background-repeat: no-repeat;
+}
+
+.qualityText:nth-child(2) .qualityImg{
+    width: 5vw;
+    height: 5vw;
+    background: url("./asset/Group\ 10.png");
+    background-position: center;
+    background-size: contain;
+    background-repeat: no-repeat;
+}
+
+.qualityText:nth-child(3) .qualityImg{
+    width: 5vw;
+    height: 5vw;
+    background: url("./asset/Group\ 12.png");
+    background-position: center;
+    background-size: contain;
+    background-repeat: no-repeat;
+}
