@@ -10,10 +10,13 @@
     
 }
 
+                /* HEADER */
+
 header nav{
     display: grid;
     grid-template-columns: 30% 70%;
     margin-left: 6em;
+    margin-top: 2%;
 }
 
 header nav .navImg{
@@ -28,6 +31,8 @@ header nav ul{
     list-style-type: none;
 }
 
+                    /* SHOWCASE */
+
 .showcase{
     display: grid;
     grid-template-columns: repeat(2,50%);
@@ -38,6 +43,7 @@ header nav ul{
 .showcaseImg{
     width: 30vw;
     height: 25vw;
+    transform: scale(1.5);
     background: url("/asset/Group\ 3.png");
     background-position: center;
     background-size: contain;
@@ -49,16 +55,25 @@ header nav ul{
     background: url("./asset/Group\ 4.png");
     background-position: center;
     background-size: contain;
+    background-repeat: no-repeat;
+    position: relative;
+    left: 5%;
+    top: 10%;
 }
 
 .showcaseText{
-    margin-top: 110px;
+    display: inline-block;
+    margin-top: 100px;
+    transform: scale(1.5);
     font-family: var(--font-family);
+    position: relative;
+    left: 25%;
 }
 
 .showcaseText h1{
     margin-left: 40px;
     font-size: 80px;
+    
 }
 
 .showcaseText p{
@@ -66,6 +81,8 @@ header nav ul{
     font-size: 20px;
     color: #636363;
 }
+
+                    /*QUALITY  */
 
 .qualityBox{
     display: grid;
@@ -80,15 +97,21 @@ header nav ul{
 }
 
 .quality{
-    margin-left: 10em;
-    margin-top: 30px;
+    margin-left: 23em;
+    margin-top: 300px;
     font-family: var(--font-motserrat);
     font-size: 25px;
+    font-weight: bolder;
 }
 
 .qualityText h2{
     margin-left: 20px;
+    margin-bottom: 1em;
 }
+.qualityText h1{
+    margin-top: 1em;
+}
+
 
 .qualityText:nth-child(1) .qualityImg{
     width: 5vw;
@@ -116,3 +139,46 @@ header nav ul{
     background-size: contain;
     background-repeat: no-repeat;
 }
+
+                    /* BIOGRAPHY */
+
+.Biography{
+    display: grid;
+    grid-template-columns: 30% 70%;
+    margin-top: 10%;
+    width: 50%;
+    
+}
+
+.BiographyImage{
+    height: 200px;
+    width: 200px;
+    background: url(./asset/Rectangle\ 2.png);
+    background-size: 97%;
+    background-repeat: no-repeat;
+    background-position: center;
+    position: relative;
+    left: 40%;
+}
+
+.BiographyText{
+    max-width: 100%;
+    position: relative;
+    left: 60%;
+}
+
+.BiographyText h1{
+    margin-bottom: 10%;
+}
+
+
+.LearnIcon{
+    background: url(./asset/Group\ 20.svg);
+    height: 10vh;
+    width: 15vw;
+    background-size: 100%;
+    background-position: center;
+    background-repeat: no-repeat;
+}
+
+            /* Channels */
