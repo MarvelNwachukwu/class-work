@@ -190,6 +190,8 @@ header nav ul{
  
  .ChannelText{
     width: 50%;
+    position: relative;
+    left: 7%;
  }
 
  .ChannelText h1{
@@ -201,5 +203,26 @@ header nav ul{
  }
 
  .ChannelImage div:nth-child(1){
-     background-image: url();
+     height: 100px;
+     width: 300px;
+     background-image: url(./asset/Group\ 33.png);
+     background-repeat: no-repeat;
+     background-position: center;
+     background-size: 100%;
+     position: relative;
+     left: 7%;
+     display: inline-block; 
  }
+
+ .ChannelImage div:nth-child(2){
+    height: 100px;
+    width: 300px;
+    background-image: url(./asset/Group\ 32.png);
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: 100%;
+    position: absolute;
+    left: 60%;
+    top: 230%;
+    display: inline-block; 
+}
