@@ -179,6 +179,27 @@ header nav ul{
     background-size: 100%;
     background-position: center;
     background-repeat: no-repeat;
+    display: inline-block;
 }
 
             /* Channels */
+
+ .Channel{
+
+ } 
+ 
+ .ChannelText{
+    width: 50%;
+ }
+
+ .ChannelText h1{
+     margin-bottom: 5%;
+ }
+
+ .ChannelImage{
+
+ }
+
+ .ChannelImage div:nth-child(1){
+     background-image: url();
+ }
