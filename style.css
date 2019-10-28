@@ -68,6 +68,7 @@ header nav ul{
     font-family: var(--font-family);
     position: relative;
     left: 25%;
+    background-repeat: no-repeat;
 }
 
 .showcaseText h1{
