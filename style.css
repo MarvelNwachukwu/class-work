@@ -40,6 +40,7 @@ header nav ul{
     grid-template-columns: repeat(2,50%);
     margin-top: 1em;
     margin-left: 5em;
+    
 }
 
 .showcaseImg{
@@ -49,6 +50,8 @@ header nav ul{
     background: url("/asset/Group\ 3.png");
     background-position: center;
     background-size: contain;
+    width: 720px;
+    background-repeat: no-repeat;
 }
 
 .img2{
@@ -71,6 +74,8 @@ header nav ul{
     position: relative;
     left: 25%;
     background-repeat: no-repeat;
+    max-width: 40%;
+    
 }
 
 .showcaseText h1{
@@ -271,4 +276,14 @@ header nav ul{
 .Community{
     margin-top: 10%;
     margin-left: 7%;
+}
+
+.Community h1{
+    text-align: center;
+}
+
+span{
+    color: #636363;
+    font-family: var(--font-family);
+    font-size: 4em;
 }
