@@ -233,7 +233,7 @@ header nav ul{
  }
 
  .ChannelImage div:nth-child(2){
-    height: 100px;
+    height: 300px;
     width: 300px;
     background-image: url(./asset/Group\ 32.png);
     background-repeat: no-repeat;
@@ -241,7 +241,7 @@ header nav ul{
     background-size: 100%;
     position: absolute;
     left: 60%;
-    top: 280%;
+    top: 250%;
     display: inline-block; 
 }
 
@@ -268,18 +268,22 @@ header nav ul{
     background-repeat: no-repeat;
     background-position: center;
     background-size: 90%;
-    position: absolute;
-    top: 315%;
+    margin-top: 5%;
 }
                 /* Community */
 
 .Community{
     margin-top: 10%;
     margin-left: 7%;
+    text-align: center;
 }
 
 .Community h1{
-    text-align: center;
+    margin-top: 10%;
+}
+
+.Community h2{
+    padding: 5em;
 }
 
 span{
