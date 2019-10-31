@@ -283,11 +283,42 @@ header nav ul{
 }
 
 .Community h2{
-    padding: 5em;
+    display: inline;
+    font-size: 2em;
 }
 
 span{
     color: #636363;
     font-family: var(--font-family);
     font-size: 4em;
+}
+
+.Community h2:nth-child(2){
+position: absolute;
+left: 10%;
+
+
+}
+
+.Community h2:nth-child(3){
+    position: absolute;
+    left: 40%;
+    
+    
+}
+
+.Community h2:nth-child(4){
+position: absolute;
+left: 70%;
+
+
+}
+
+hr {
+    display: block;
+    height: 1px;
+    border: 0;
+    border-top: 1px solid #ccc;
+    margin: 1em 0;
+    padding: 0;
 }
