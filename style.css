@@ -1,7 +1,8 @@
 :root{
     --font-poppins: 'Poppins', sans-serif;
     --font-family: 'Racing Sans One', cursive;
-    --font-motserrat: 'Montserrat', sans-serif;}
+    --font-motserrat: 'Montserrat', sans-serif;
+}
 
 
 *{
@@ -22,7 +23,7 @@ header nav{
 header nav .navImg{
     width: 20vw;
     height: 5vw;
-    background: url("./asset/Group\ 5.png");
+    /* background: url("./asset/Group\ 5.png"); */
     background-repeat: no-repeat;
     display: inline-block;
 }
@@ -32,6 +33,37 @@ header nav ul{
     grid-template-columns: repeat(4,22%);
     list-style-type: none;
 }
+
+.navImg, h3{
+    position: relative;
+    left: -10%;
+
+}
+
+.STEVEN{
+    font-size: 1.5em;
+    display: inline;
+}
+h3::before{
+    height: 3px;
+    width: 100px;
+   background-color: rgb(28, 56, 146);
+    content: '';
+    display: inline-block;
+    position: absolute;
+    left: 67%;
+    top: 40%;
+}
+
+h3::after{
+    height: 3px;
+    width: 100px;
+   background-color: rgb(110, 25, 25);
+    /* color: red; */
+    content: '';
+    display: inline-block;
+}
+
 
                     /* SHOWCASE */
 
